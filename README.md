@@ -66,3 +66,12 @@ Navigate to `http://localhost:4000`
 
 * Documentation and Gitbook are released under [Creative Commons Attribution Share Alike 4.0 International](CC-BY-SA-LICENSE.txt)
 * Lab material including any code, script are release under [MIT License](MIT-LICENSE.txt)
+
+## About Appsecco
+
+At Appsecco we provide advice, testing and training around software, infra, web and mobile apps, especially that are cloud hosted. We specialise in auditing Kubernetes clusters as per the CIS Benchmark to create a picture of the current state of security. If you are confident about the security of your cluster get assurance for withstanding real world attackers by getting us to do a black box pentest.
+
+* https://appsecco.com
+* https://blog.appsecco.com
+
+
