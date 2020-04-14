@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: net-tools-deployment
+  labels:
+    app: net-tools
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: net-tools
+  template:
+    metadata:
+      labels:
+        app: net-tools
+    spec:
+      containers:
+      - name: net-tools
+        image: appsecco/k8s-training-netscan-tools:latest
+        resources:
+          limits:
+            cpu: 50m
+            memory: 100Mi
+          requests:
+            cpu: 40m
+            memory: 80Mi

@@ -1,0 +1,6 @@
+# Cryptojacking using public docker containers
+
+Kromtech Security Center found 17 malicious docker images stored on Docker Hub for an entire year. Even after several complaints on GitHub and Twitter, research made by sysdig.com and fortinet.com, cybercriminals continued to enlarge their malware armory on Docker Hub. With more than 5 million pulls, the `docker123321` registry is considered a springboard for cryptomining containers. Today’s growing number of publicly accessible misconfigured orchestration platforms like Kubernetes allows hackers to create a fully automated tool that forces these platforms to mine Monero. By pushing malicious images to a Docker Hub registry and pulling it from the victim’s system, hackers were able to mine `544.74` Monero, which is equal to `$90000`.
+
+
+* Read more about [Cryptojacking invades cloud. How modern containerization trend is exploited by attackers](https://kromtech.com/blog/security-center/cryptojacking-invades-cloud-how-modern-containerization-trend-is-exploited-by-attackers)

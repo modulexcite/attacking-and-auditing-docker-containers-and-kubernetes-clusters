@@ -1,0 +1,30 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: apps-ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: mailbox-service.oss-k8s-security.cloudsec.training
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: mailbox-service
+          servicePort: 80
+  - host: server-health.oss-k8s-security.cloudsec.training
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: server-health
+          servicePort: 80
+  - host: connectivity-check.oss-k8s-security.cloudsec.training
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: connectivity-check
+          servicePort: 80

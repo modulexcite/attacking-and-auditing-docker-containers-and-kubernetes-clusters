@@ -1,0 +1,7 @@
+gitbook/_book/*
+*.pdf
+*.epub
+*.mobi
+
+infra-setup/k8s-training-kubeconfig
+infra-setup/destroy.sh
